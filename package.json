@@ -1,7 +1,11 @@
 {
   "name": "liff-react-meipoc",
+  "homepage": "https://yuanmei023.github.com/liffreactuploadpocmei",
   "version": "0.0.0",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "start": "react-scripts start",
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview"
@@ -17,6 +21,7 @@
   },
   "devDependencies": {
     "@vitejs/plugin-react": "2.1.0",
+    "gh-pages": "^4.0.0",
     "vite": "3.1.4"
   }
 }
