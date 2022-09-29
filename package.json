@@ -1,0 +1,22 @@
+{
+  "name": "liff-react-meipoc",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@line/liff": "^2.21.1",
+    "axios": "^0.27.2",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-dropzone": "^14.2.2",
+    "react-dropzone-uploader": "^2.11.0",
+    "react-liff": "^2.0.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "2.1.0",
+    "vite": "3.1.4"
+  }
+}
